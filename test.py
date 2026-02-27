@@ -1177,8 +1177,8 @@ if __name__ == "__main__":
     print("\n🔄 Шаг 4: Тестирование обученной модели на реальных моделях...")
     
     # Загрузите ВАШИ реальные модели (замените пути на ваши файлы)
-    STEP_FILE_1 = "test.step"
-    STEP_FILE_2 = "test1.step"
+    STEP_FILE_1 = "enhanced_dataset\raw\block_with_holes_000004.step"
+    STEP_FILE_2 = "enhanced_dataset\raw\t_bracket_000015.step"
     
     if not os.path.exists(STEP_FILE_1) or not os.path.exists(STEP_FILE_2):
         print(f"⚠️ Файлы {STEP_FILE_1} или {STEP_FILE_2} не найдены")
